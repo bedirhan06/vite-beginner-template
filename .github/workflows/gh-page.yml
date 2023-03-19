@@ -42,7 +42,7 @@ jobs:
         run: pnpm i
 
       - name: Build for Production
-        run: pnpm build --base "/${{ github.event.repository.name }}/"
+        run: pnpm build --base /${{ github.event.repository.name }}/
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
