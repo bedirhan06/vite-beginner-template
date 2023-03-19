@@ -3,7 +3,6 @@ import { URL, fileURLToPath } from "url";
 import { createSvgIconsPlugin } from "vite-plugin-svg-icons";
 
 export default defineConfig(({ mode }) => ({
-  base: mode === "development" ? "/" : "/article-preview-component/",
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
