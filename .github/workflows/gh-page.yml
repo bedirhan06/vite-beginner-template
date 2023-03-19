@@ -43,8 +43,6 @@ jobs:
 
       - name: Build for Production
         run: pnpm build
-        env:
-          BASE_URL: /${{ github.event.repository.name }}/
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
