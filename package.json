@@ -2,14 +2,17 @@
   "name": "vite-beginner-template",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky install"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
     "fast-glob": "^3.2.12",
+    "husky": "^8.0.0",
     "sass": "^1.59.3",
     "vite": "^4.2.0",
     "vite-plugin-svg-icons": "^2.0.1"
