@@ -1,0 +1,17 @@
+{
+  "name": "vite-beginner-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "fast-glob": "^3.2.12",
+    "sass": "^1.59.3",
+    "vite": "^4.2.0",
+    "vite-plugin-svg-icons": "^2.0.1"
+  }
+}
