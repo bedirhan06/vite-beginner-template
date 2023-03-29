@@ -39,7 +39,7 @@ jobs:
         run: corepack enable
 
       - name: Install Dependencies
-        run: pnpm i
+        run: pnpm i --no-frozen-lockfile
 
       - name: Build for Production
         run: pnpm build --base=/${{ github.event.repository.name }}/
